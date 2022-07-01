@@ -177,3 +177,61 @@ footer .contacts p img {
   bottom: 30px;
   font-size: 70%;
 }
+@media screen and (max-width: 375px) {
+  .section1 {
+    padding: 2px 2px;
+    background-image: url(images/bg-hero-mobile.svg);
+  }
+  button {
+    padding: 7px 15px;
+  }
+  .btn0 {
+    padding: 5px 18px;
+  }
+  .btn1 {
+    margin-bottom: 20px;
+    padding: 12px 35px;
+  }
+  nav {
+    padding-top: 7px;
+  }
+  nav div img {
+    height: 12px;
+  }
+  .text-image-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    text-align: center;
+    margin: 11px;
+  }
+  .image1 img {
+    max-width: 320px;
+    width: 80%;
+    margin: 0 10%;
+  }
+  .grow-together,
+  .flowing,
+  .your-users {
+    flex-direction: column-reverse;
+    position: relative;
+    text-align: center;
+  }
+  .container2 {
+    padding: 60px 5px 120px 5px;
+  }
+  .Ready {
+    max-width: 300px;
+    padding: 15px 0;
+  }
+  .Ready h2 {
+    font-size: 80%;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .links {
+    flex-direction: column;
+  }
+}
